@@ -2,10 +2,16 @@
 This program demonstrates a basic Visual Question Answering (VQA) concept and introduces a clarification feature based on my research idea. The clarification feature addresses the challenge of ambiguity in questions, a common issue when humans interact with VQA systems. While existing VQA datasets generally assume that questions are clearly defined and lead to unique answers, real-world questions often include ambiguous expressions, vague references, or unspecified objects. 
 
 In this program, ambiguous questions are defined as those containing vague pronouns (e.g., "it," "this," "that") or other general terms (e.g., "thing," "object") without sufficient contextual information. For instance:
-  Ambiguous question:
+
+- **Ambiguous question:**
   > "What is it?"
-  Clarified question:
-  > "What is it on the sofa?" 
+
+  This question is unclear because the term "it" lacks a specific reference. 
+
+- **Clarified question:**
+  > "What is it on the sofa?"
+
+  Adding "on the sofa" provides the necessary context, making the question clear and specific. 
 
 This feature aims to handle these ambiguities by prompting the user for clarification when their question lacks sufficient context, thus improving the system's response accuracy. The model used is BLIP-2, proposed in the paper "[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)," and is implemented using the Hugging Face [transformers](https://huggingface.co/docs/transformers/en/index) library. 
 
@@ -17,6 +23,7 @@ This feature aims to handle these ambiguities by prompting the user for clarific
 This program is designed to be run on Google Colab. For optimal runtime efficiency, enabling GPU support is highly recommended. Follow these steps to configure GPU settings:
   1. Go to `Runtime` > `Change runtime type`.
   2. Set `Hardware accelerator` to any available GPU (if you're using the free version of Colab, a T4 GPU is likely to be         your primary option).
+     
 Please note: For users on the free version, there are time limitations for GPU usage, and selecting a GPU does not guarantee that one will be allocated to you. For more details, visit the [Colab FAQ](https://research.google.com/colaboratory/faq.html).
 
 ## Dataset
