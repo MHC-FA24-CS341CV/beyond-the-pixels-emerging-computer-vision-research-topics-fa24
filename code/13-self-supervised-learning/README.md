@@ -11,4 +11,4 @@ The three example datasets used for testing come from [TensorFlow](https://www.t
 
 ## Running the program
 
-The code is designed to be run in Google Colab. Open the [`.ipynb file`](https://github.com/MHC-FA24-CS341CV/beyond-the-pixels-emerging-computer-vision-research-topics-fa24/blob/main/code/13-self-supervised-learning/Self_Supervised_Learning.ipynbcan) in colab and select `Runtime -> Run all`. The process should take around 10 minutes depending on your GPU. The outputted images display the models’ predictions alongside the true labels. 
+The code is designed to be run in Google Colab. Open the [`.ipynb file`](https://github.com/MHC-FA24-CS341CV/beyond-the-pixels-emerging-computer-vision-research-topics-fa24/blob/main/code/13-self-supervised-learning/Self_Supervised_Learning.ipynb) in colab and select `Runtime -> Run all`. The process should take around 10 minutes depending on your GPU. The outputted images display the models’ predictions alongside the true labels. 
