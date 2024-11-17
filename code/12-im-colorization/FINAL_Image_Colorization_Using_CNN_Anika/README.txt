@@ -20,3 +20,4 @@ directly in the notebook or saved back to Google Drive for
 offline access.
 
 Link to reference code: https://www.kaggle.com/code/basu369victor/image-colorization-basic-implementation-with-cnn
+Link to dataset used: https://www.kaggle.com/datasets/abhikalpsrivastava15/space-images-category
