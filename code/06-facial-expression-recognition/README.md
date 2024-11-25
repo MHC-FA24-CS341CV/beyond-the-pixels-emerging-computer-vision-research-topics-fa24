@@ -34,15 +34,10 @@ Please note: For users on the free version, there are time limitations for GPU u
 
 You do not have to download the dataset because I have code withing the Colab that gets it directly from Kaggle
 
-3. **Run the Notebook**:
-   Open the Colab notebook in your browser or run locally
-   ```
 
-4. **Dataset**:
-   Download the UTKFace dataset from [Kaggle](https://www.kaggle.com/datasets/jangedoo/utkface-new) and place it in the appropriate folder:
-   ```plaintext
-   data/UTKFace/
-   ```
+
+## Dataset
+   Download the UTKFace dataset from [Kaggle](https://www.kaggle.com/datasets/jangedoo/utkface-new)
 
 ## Attribution
 This project was inspired by principles of bias detection in facial recognition systems and draws on clustering methods outlined in the Scikit-Learn documentation, Towards Data Science articles, and related literature.
