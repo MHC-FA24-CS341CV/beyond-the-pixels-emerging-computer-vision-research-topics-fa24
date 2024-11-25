@@ -1,0 +1,12 @@
+# Facial Expression Recognition: Bias Detection Using Clustering
+
+## Description
+This project explores biases in facial expression recognition (FER) systems using the UTKFace dataset. 
+By applying unsupervised clustering on extracted facial features, the analysis highlights racial imbalances in the dataset 
+and demonstrates how these biases affect the representation of underrepresented groups, such as Black individuals. 
+The project leverages K-Means clustering and the elbow method to determine optimal clusters and evaluates how 
+facial features are distributed across these clusters.
+
+## Features
+
+* gg
